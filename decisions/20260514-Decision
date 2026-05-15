@@ -1,0 +1,11 @@
+Decision:
+Use PostgreSQL from day one.
+
+Reason:
+Already operational locally for HAI.
+Reduces future migration pain.
+
+Rejected:
+Static JSON long-term.
+Reason:
+Would eventually create inventory fragmentation.
