@@ -34,9 +34,12 @@ export default function Home() {
           src="/brand/gsrs-logo-elongated-deep-chocolate.png"
           alt="Gems, Stones, Rocks & Such"
           style={{
+            display: "block",
             maxWidth: "315px",
             width: "62%",
             height: "auto",
+            marginLeft: "auto",
+            marginRight: "auto",
             marginBottom: "28px",
           }}
         />
@@ -147,16 +150,18 @@ export default function Home() {
           Every purchase helps support our mission to feed those in need.
         </p>
 
-        <footer
+        <div
           style={{
             color: "#0B1D33",
+            background: "transparent",
             fontSize: "0.95rem",
             letterSpacing: "0.04em",
-            paddingTop: "18px",
+            padding: "18px 0 0 0",
+            margin: 0,
           }}
         >
-          © Gems, Stones, Rocks &amp; Such
-        </footer>
+          © Gems, Stones, Rocks and Such
+        </div>
       </section>
     </main>
   );
