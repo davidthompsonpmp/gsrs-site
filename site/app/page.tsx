@@ -34,6 +34,7 @@ export default function Home() {
           src="/brand/gsrs-logo-elongated-deep-chocolate.png"
           alt="Gems, Stones, Rocks & Such"
           style={{
+            transform: "translateX(24px)",
             display: "block",
             maxWidth: "315px",
             width: "62%",
