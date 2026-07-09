@@ -38,7 +38,7 @@ export default function FeaturedCollection() {
         {items.map((item) => (
           <div
             key={item.title}
-            className="group overflow-hidden rounded-[1.5rem] border border-white/10 bg-black/20 backdrop-blur-sm transition duration-500 hover:border-stone-400/30"
+            className="group overflow-hidden rounded-[1.5rem] border border-white/10 bg-[var(--gsrs-color-background-primary)]/20 backdrop-blur-sm transition duration-500 hover:border-stone-400/30"
           >
 
             <div className="overflow-hidden">

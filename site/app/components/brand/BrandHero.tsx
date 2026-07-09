@@ -11,7 +11,7 @@ export default function BrandHero({ theme = gsrsThemeFallback }: BrandHeroProps)
         <img
           src={theme.brand.logo}
           alt={`${theme.brand.displayName} logo`}
-          className="mx-auto mb-10 h-44 w-auto opacity-90 md:h-56"
+          className="mx-auto mb-10 block h-32 w-auto opacity-90 md:h-44"
         />
 
         <div className="mx-auto mb-10 h-px w-32 bg-[#3A1F0F]" />
@@ -32,7 +32,7 @@ export default function BrandHero({ theme = gsrsThemeFallback }: BrandHeroProps)
           {theme.copy.body}
         </p>
 
-        <div className="mx-auto mb-9 max-w-2xl rounded-2xl border border-[#3A1F0F]/75 bg-black/30 px-7 py-6 text-sm leading-7 text-stone-300">
+        <div className="mx-auto mb-9 max-w-2xl rounded-2xl border border-[#3A1F0F]/75 bg-[var(--gsrs-color-background-primary)]/30 px-7 py-6 text-sm leading-7 text-stone-300">
           {theme.copy.mission_line}
         </div>
 
@@ -45,9 +45,10 @@ export default function BrandHero({ theme = gsrsThemeFallback }: BrandHeroProps)
         </a>
 
         <footer className="mt-14 text-[10px] uppercase tracking-[0.32em] text-stone-700">
-          © 2026 {theme.brand.displayName}
+          © 2026 Gems, Stones, Rocks and Such
         </footer>
       </div>
     </section>
   );
 }
+

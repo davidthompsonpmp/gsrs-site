@@ -8,7 +8,7 @@ export default function Hero() {
 
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_right,rgba(255,210,140,0.10),transparent_40%)]" />
 
-      <div className="relative z-10 mx-6 max-w-4xl rounded-[2rem] border border-white/10 bg-black/10 px-10 py-20 text-left shadow-[0_0_60px_rgba(0,0,0,0.55)] backdrop-blur-sm md:px-24">
+      <div className="relative z-10 mx-6 max-w-4xl rounded-[2rem] border border-white/10 bg-[var(--gsrs-color-background-primary)]/10 px-10 py-20 text-left shadow-[0_0_60px_rgba(0,0,0,0.55)] backdrop-blur-sm md:px-24">
 
         <p className="mb-6 text-sm uppercase tracking-[0.45em] text-stone-500">
           Private Collection Archive
@@ -32,7 +32,7 @@ export default function Hero() {
 
         <div className="mt-12 h-px w-24 bg-gradient-to-r from-stone-500/0 via-stone-400 to-stone-500/0" />
 
-        <button className="mt-10 rounded-sm border border-stone-500/40 bg-black/30 px-8 py-3 text-sm uppercase tracking-[0.35em] backdrop-blur-sm transition hover:bg-white hover:text-black">
+        <button className="mt-10 rounded-sm border border-stone-500/40 bg-[var(--gsrs-color-background-primary)]/30 px-8 py-3 text-sm uppercase tracking-[0.35em] backdrop-blur-sm transition hover:bg-white hover:text-black">
           Explore the Archive
         </button>
 
