@@ -1,0 +1,15 @@
+# Local/historical working copies
+site_local_current/
+site_remote_backup_*/
+archive/
+
+# Intake staging
+incoming/
+
+# Next.js generated files
+site/.next/
+site/node_modules/
+
+# Local environment
+site/.env.local
+site/.env.*.local

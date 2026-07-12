@@ -1,0 +1,15 @@
+{
+  "brand": {
+    "name": "GemsStonesRocks & Such",
+    "asset_collection_id": "GSRS-BRAND-IDENTITY-001",
+    "primary_logo_asset_id": "GSRS-ASSET-LOGO-ELONGATED-001"
+  },
+  "colors": {
+    "deep_chocolate": "#3A1F0F",
+    "obsidian": "#050505",
+    "warm_stone": "#F5F0E8",
+    "muted_stone": "#A8A29E",
+    "soft_gold": "#C8A15A",
+    "gallery_brown": "#5A3218"
+  }
+}
