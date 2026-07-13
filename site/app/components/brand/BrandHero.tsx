@@ -36,8 +36,8 @@ export default function BrandHero({
           alt={theme.brand.displayName}
           style={{
             display: "block",
-            maxWidth: "315px",
-            width: "62%",
+            maxWidth: theme.brand.logoStyle.maxwidth,
+            width: theme.brand.logoStyle.width,
             height: "auto",
             marginLeft: "auto",
             marginRight: "auto",
@@ -150,12 +150,13 @@ export default function BrandHero({
 
         <div
           style={{
-            color: theme.colors.footerBlue,
-            background: "transparent",
+            background: theme.colors.deepChocolate,
+            color: theme.colors.background,
+            marginTop: "42px",
+            padding: "22px 24px",
+            textAlign: "center",
             fontSize: "0.95rem",
-            letterSpacing: "0.04em",
-            padding: "18px 0 0 0",
-            margin: 0,
+            letterSpacing: "0.08em",
           }}
         >
           {theme.copy.footer}

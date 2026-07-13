@@ -4,6 +4,11 @@ export const gsrsThemeFallback = {
     displayName: "Gems, Stones, Rocks & Such",
     legalEntityVisibility: "HIDDEN_FROM_CUSTOMERS",
     logo: "/brand/gsrs-logo-elongated-deep-chocolate.png",
+
+    logoStyle: {
+        maxwidth: "275px",
+        width: "56%",
+    },
   },
 
   colors: {
