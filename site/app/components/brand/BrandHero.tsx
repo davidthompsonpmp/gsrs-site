@@ -1,3 +1,4 @@
+import StoryPromise from "./StoryPromise";
 import {
   gsrsThemeFallback,
   type GsrsTheme,
@@ -176,6 +177,7 @@ export default function BrandHero({
       >
         {theme.copy.footer}
       </footer>
-    </main>
+          <StoryPromise />
+</main>
   );
 }
