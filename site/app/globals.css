@@ -453,3 +453,20 @@ footer small {
   }
 }
 
+/* Runtime-driven GSRS homepage footer */
+footer.brand-hero-footer {
+  width: 100% !important;
+  min-height: 0 !important;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 24px !important;
+  background: #3d2314 !important;
+  color: #fdfbf7 !important;
+  text-align: center !important;
+}
+
+footer.brand-hero-footer,
+footer.brand-hero-footer * {
+  color: #fdfbf7 !important;
+  -webkit-text-fill-color: #fdfbf7 !important;
+}

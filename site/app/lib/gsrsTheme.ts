@@ -12,10 +12,10 @@ export const gsrsThemeFallback = {
   },
 
   colors: {
-    background: "#FDFBF7",
+    creamIvory: "#FDFBF7",
     deepChocolate: "#3D2314",
-    softGold: "#C8A15A",
-    footerBlue: "#0B1D33",
+    subtleDivider: "rgba(61,35,20,0.18)",
+    footerDivider: "rgba(253,251,247,0.18)",
   },
 
   copy: {
