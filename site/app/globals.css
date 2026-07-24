@@ -578,3 +578,16 @@ footer.brand-hero-footer * {
     margin-bottom: 1.75rem;
   }
 }
+/* Founding Collection — Stewardship Journey */
+.foundingCollection,.curateDetail{max-width:1180px;margin:0 auto;padding:64px 24px 96px}
+.foundingIntro{max-width:760px;margin-bottom:42px}
+.foundingIntro h1,.curateHero h1{font-size:clamp(2.4rem,6vw,5rem);line-height:.96}
+.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.76rem;opacity:.68}
+.curateGrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:24px}
+.curateCard{border:1px solid rgba(127,127,127,.24);border-radius:20px;overflow:hidden;padding-bottom:22px}
+.curateCard img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.curateCard>div,.curateCard>h3,.curateCard>a{margin-left:20px;margin-right:20px}
+.curateHero{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-top:28px}
+.curateHero>img{width:100%;border-radius:24px}
+.discoveryTrail{margin-top:80px;padding-top:44px;border-top:1px solid rgba(127,127,127,.24)}
+@media(max-width:760px){.curateHero{grid-template-columns:1fr}}
